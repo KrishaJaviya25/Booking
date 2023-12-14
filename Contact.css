@@ -1,0 +1,110 @@
+
+            *{
+                text-decoration: none;
+            }
+            .nav{
+                background-color: #050401;
+                padding-bottom: 8;
+                border-radius: 12px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+            .as{
+                display: inline;
+                font-size: 20px;
+                font-weight: bold;
+                margin-left: 20px;
+                margin-top: 10px;
+            }
+
+            .as a{
+                color: white;
+            }
+
+            .logo{
+                font-size: 27px;
+                text-align: center;
+                font-weight: bold;
+                display: inline;
+                padding: 650px;
+                color: white;
+            }
+
+            .logo m:hover{
+                color: #ee2a41;
+            }
+
+            k{
+                color: #ee2a41;
+            }
+
+            .cards{
+                width: 40%;
+                height: 550px;
+                box-shadow: 3px 3px 20px black;
+                background-color: white;
+                border-radius: 7px;
+                margin-top: 40px;
+            }
+
+            .title{
+                text-align: center;
+                padding-top: 7px;
+            }
+
+            .des{
+                text-align: center;
+                font-size: 20px;
+                padding-left: 70px;
+                padding-right: 70px;
+                padding-top: 5px;
+                margin-top: 8px;
+                margin-left: -25px;
+            }
+
+            .footer {
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 97%;
+                background: #4b4b4b;
+                border-radius: 6px;
+                height: 300px;
+                margin-top: 195px;
+            }
+            .footer .footer-row {
+                flex-wrap: wrap;
+                justify-content: space-between;
+                gap: 3.5rem;
+                padding: 40px;
+                color: black;
+                font-weight: bold;
+                display: flex;
+            }
+
+            .footer-row .footer-col h4 {
+                font-weight: bold;
+                font-size: 22px;
+                font-weight: bold;
+                align-items: center;
+                color: black;
+            }
+
+            .footer-col .links {
+                font-size: 17px;
+                margin-top: 20px;
+            }
+                .footer-col .links li {
+                    margin-bottom: 10px;
+                    list-style: none;
+            }
+
+            .footer-col .links li a {
+                color: black;
+                text-decoration: none;
+            }
+
+            .footer-col .links li a:hover {
+                color: #ee2a41;
+            }

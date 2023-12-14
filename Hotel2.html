@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <title>Hotel Sayaji</title>
+        <link rel="stylesheet" href="Hotel.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="nav">
+            <div class="as"><a href="index.html">Home</a></div>
+            <div class="logo">
+              <m>
+                Hotel Blue Leaf</m>
+                </div>
+        </div>
+        <div class="img">
+          <img src="hotelimageblue1.jpg" height="350px" width="755px" style="border-radius: 7px; box-shadow: 2px 2px 10px black;">
+        </div>
+        <br>
+        <div class="img2">
+            <img src="hotelimageblue2.jpg" height="200px" width="350px" style="border-radius: 7px; box-shadow: 2px 2px 4px black;">
+          </div>
+          <div class="img2">
+            <img src="hotelimageblue3.jpg" height="200px" width="350px" style="border-radius: 7px; box-shadow: 2px 2px 4px black;">
+          </div>  
+
+          <div class="cards">
+            <div class="title">
+                <h1>Hotel Blue leaf ,Rajkot</h1>
+            </div>
+              <div class="post">
+                    Semi open & outdoor restaurant
+                    Poolside bar
+                    Car parking
+                    Swimming pool/ Jacuzzi
+                    Public computer
+                    Disable rooms & Interconnecting rooms
+                    24 Hour security
+                    Outside catering service
+                    100 Seating capacity restaurant
+                    150 Capacity outdoor terrace
+                    45 Seating conference room
+                    35 Seating private air-conditioning dining room
+                    Water purification system
+                    Sunset boat trip
+
+                <span class="dots">...</span>
+                <span class="more">Gift shop
+                  24-Hour room service
+                  Free wireless internet access
+                  Complimentary use of hotel bicycle
+                  Laundry service
+                  Tour & excursions
+                  24 Hour concierge</span>
+                <button class="read">read more</button>
+
+                <script type="text/javascript">
+                  $(document).ready(function(){
+                      $(".read").click(function(){
+                          $(this).prev().toggle();
+                          $(this).siblings('.dots').toggle();
+                          if($(this).text()=='read more'){
+                              $(this).text('read less');
+                          }
+                          else{
+                              $(this).text('read more');
+                          }
+                      });
+                  });
+              </script>
+            </div>
+
+                <pa>
+                   <h2>   
+                   </h2> 
+                    </pa><br>
+                    <center><h2>Check In 9:00Am Check Out 12:00Pm</h2></center>
+                <br>
+                <center>
+                <button id="button"><a href="submitpage.html">₹ 1400</a>
+                </button></center><br>
+            </div>
+        </div>
+        <section class="footer">
+          <div class="footer-row">
+            <div class="footer-col">
+              <h4>Product Offering</h4>
+              <ul class="links">
+                <li><a href="">Flights</a></li>
+                <li><a href="">Hourly Hotel Booking</a></li>
+                <li><a href="">International Flights</a></li>
+                <li><a href="">Hotels </a></li>
+              </ul>
+            </div>
+      
+            <div class="footer-col">
+              <h4>MakeMyTrip</h4>
+              <ul class="links">
+                <li><a href="">About Us</a></li>
+                <li><a href="">Investor Relations</a></li>
+                <li><a href="">Testimonial</a></li>
+                <li><a href="">Careers </a></li>
+              </ul>
+            </div>
+      
+            <div class="footer-col">
+              <h4>Important Links</h4>
+              <ul class="links">
+                <li><a href="">Hotels in Mussoorie</a></li>
+                <li><a href="">Hotels in Mount Abu</a></li>
+                <li><a href="">Hotels in Darjeeling</a></li>
+                <li><a href="">Haridwar Hotels</a></li>
+              </ul>
+            </div>
+      
+            <div class="footer-col">
+              <h4>Top Int'l Hotel Cities</h4>
+              <ul class="links">
+                  <li><a href="">Hotels in Dubai</a></li>
+                  <li><a href="">Singapore Hotels</a></li>
+                  <li><a href="">Hotels in Bangkok</a></li>
+                  <li><a href="">Hotels in Pattaya</a></li>
+                </ul>
+            </div>
+          </div>
+      </section>
+    </body>
+</html>
